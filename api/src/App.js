@@ -20,6 +20,8 @@ function App() {
         })
         .catch(function (error) {
           // handle error
+          console.log("Hello");
+          
           console.log(error);
         })
 
